@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "target": "es6",
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "dist",
+        "lib": ["esnext"],
+        "types": ["node"],
+        "baseUrl": "./",
+    },
+    "exclude": ["node_modules"],
+    "include": [
+        "src/**/*.ts",
+        "./.env"
+    ],
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node",
+    }
+}
